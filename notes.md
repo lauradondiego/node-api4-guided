@@ -13,4 +13,5 @@
 - Go to the "overview" tab and you can see when it was built and deployed
 - Once successful, click "open app" or "view"
 - If app fails, add this: "start": "node index.js" into scripts in package.json * commit and push!
-- 
+- npx heroku logs -a appname --tail in terminal 
+- Go back to overview to see it reloading

@@ -1,3 +1,6 @@
+require("dotenv").config();
+// add this to add environment FIRST UP TOP!
+
 const server = require("./api/server.js");
 
 const port = 4000;
